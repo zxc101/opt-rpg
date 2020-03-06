@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfdeed17e9d9bd44816ee09b642b0ce, type: 3}
+  m_Name: NewEnemyStats
+  m_EditorClassIdentifier: 
+  identifier:
+    appearance: {fileID: 21300000, guid: 79def5613113a5240887037740e961d1, type: 3}
+    price: 0
+  power:
+    value: 0
+  health:
+    value: 0
+  agility:
+    attackSpeed: 0
+    evasion: 45
+    percentAttackYourself: 0
+  shield:
+    value: 0
+  crit:
+    value: 0
+    percent: 0
+  poison:
+    value: 0
+    percent: 0
+    countSteps: 0
+  xp:
+    charXP: 0
+    lvlXP: 0
+  rewards:
+  - Name: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B 1"
+    equip: {fileID: 11400000, guid: 5afff1df1f550274d9758547457de149, type: 2}
+    chance: 25
+  - Name: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B 2"
+    equip: {fileID: 11400000, guid: 68199aa7a11ea4f4dac185b73debbf1d, type: 2}
+    chance: 50
+  - Name: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B 3"
+    equip: {fileID: 11400000, guid: 113f8aed3b85b2e4c8736cf2b02d310b, type: 2}
+    chance: 75
+  - Name: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B 4"
+    equip: {fileID: 11400000, guid: 4c71a5ffa6eaeeb41a49cdb466b20ca3, type: 2}
+    chance: 100
